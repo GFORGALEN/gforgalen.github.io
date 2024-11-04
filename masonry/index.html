@@ -13,16 +13,18 @@
     
     <!--- Seo Part-->
     
-    <link rel="canonical" href="http://example.com/archives/"/>
+    <link rel="canonical" href="http://example.com/masonry/"/>
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     
         <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/archives/index.html">
+<meta property="og:title" content="Gallery">
+<meta property="og:url" content="http://example.com/masonry/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2023-05-13T23:45:14.000Z">
+<meta property="article:modified_time" content="2024-11-04T12:01:57.554Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
     
@@ -46,7 +48,7 @@
     
     <title>
         
-            Archive | Keep Thinking
+            Gallery | Keep Thinking
         
     </title>
 
@@ -336,7 +338,7 @@
 
                             <li class="navbar-item">
                                 <!-- Menu -->
-                                <a class="active"
+                                <a class=""
                                    href="/archives"
                                         >
                                     <i class="fa-regular fa-archive fa-fw"></i>
@@ -386,7 +388,7 @@
 
                             <li class="navbar-item">
                                 <!-- Menu -->
-                                <a class=""
+                                <a class="active"
                                    href="/masonry/"
                                         >
                                     <i class="fa-solid fa-image fa-fw"></i>
@@ -447,7 +449,7 @@
 
                     <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
                         
-                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
                            href="/archives"
                         >
                             <span>
@@ -501,7 +503,7 @@
 
                     <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
                         
-                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
                            href="/masonry/"
                         >
                             <span>
@@ -554,47 +556,398 @@
             <div class="main-content">
 
                 
-                    <div class="archive-container shadow-none hover:shadow-none sm:shadow-redefine sm:hover:shadow-redefine-hover">
+                    <div class="page-template-container">
     
-<div class="archive-list-container">
     
-        <section class="archive-item mb-spacing-unit last:mb-0">
-            <div class="archive-item-header flex flex-row items-center mb-2">
-                <span class="archive-year font-semibold text-3xl mr-2">2024</span>
-                <span class="archive-year-post-count text-xs md:text-sm font-bold rounded-small bg-third-background-color py-[2px] px-[10px] border border-border-color">2</span>
-            </div>
-            
-            <ul class="article-list pl-0 md:pl-8 text-lg leading-[1.5]">
-                
-                    
-                    
-                         <!-- Close the previous LI if not the first item -->
-                        <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='11-04'>
-                    
-                    <a href="/2024/11/04/MUSICHAT/" class="block w-fit">
-                        <span class="article-title my-0.5 text-2xl">MUSICHAT</span>
-                    </a>
-                    
-                
-                    
-                    
-                        
-                            </li>
-                         <!-- Close the previous LI if not the first item -->
-                        <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='03-05'>
-                    
-                    <a href="/2024/03/05/Your-Name-A-Journey-Across-Time-and-Space/" class="block w-fit">
-                        <span class="article-title my-0.5 text-2xl">Your Name A Journey Across Time and Space / 你的名字：跨越时空的邂逅</span>
-                    </a>
-                    
-                
-                </li> <!-- Ensure the last item is properly closed -->
-            </ul>
-        </section>
+    
+        
+
+<h1 class="page-title-header">Gallery</h1>
+  
+<div class="loading-placeholder">
+    <div class="flex-grid generic-card">
+        <div class="card loading"></div>
+        <div class="card loading"></div>
+        <div class="card loading"></div>
+    </div>
+</div>
+
+<div id="masonry-container">
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/9N5ZxkT/backgroundlight.webp" alt="图片标题">
+            <div class="image-title">图片标题</div>
+            <div class="image-description"></div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/MDz6wby/background2.webp" alt="Lorem ipsum">
+            <div class="image-title">Lorem ipsum</div>
+            <div class="image-description">Lorem ipsum dolor sit amet</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/XxQZG3d/image.jpg" alt="Mountain View">
+            <div class="image-title">Mountain View</div>
+            <div class="image-description">Peaceful mountain landscape in morning light</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/NC5bh6n/S00124-22374219.jpg" alt="Night City Lights">
+            <div class="image-title">Night City Lights</div>
+            <div class="image-description">Urban landscape illuminated in the evening</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/FYhrqmy/S00124-22384657.jpg" alt="Modern Architecture">
+            <div class="image-title">Modern Architecture</div>
+            <div class="image-description">Contemporary building design in urban setting</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/0JWM7NY/S00124-22441169.jpg" alt="City Perspective">
+            <div class="image-title">City Perspective</div>
+            <div class="image-description">Architectural details in modern cityscape</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/2gLcBgG/S00124-22504085.jpg" alt="Urban Reflections">
+            <div class="image-title">Urban Reflections</div>
+            <div class="image-description">City lights reflecting in modern architecture</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/RCFtXvr/S00124-22531181.jpg" alt="Metropolitan View">
+            <div class="image-title">Metropolitan View</div>
+            <div class="image-description">Evening view of urban development</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/Z6jCCYR/S00124-23031515.jpg" alt="Night Scene">
+            <div class="image-title">Night Scene</div>
+            <div class="image-description">City buildings under night sky</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/3W5QDYx/S00124-23042117.jpg" alt="Urban Design">
+            <div class="image-title">Urban Design</div>
+            <div class="image-description">Modern architectural elements in cityscape</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/H2Sw6TX/S00125-12305355.jpg" alt="City Patterns">
+            <div class="image-title">City Patterns</div>
+            <div class="image-description">Geometric patterns in urban architecture</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/PYp31Qv/S00125-12343926.jpg" alt="Downtown View">
+            <div class="image-title">Downtown View</div>
+            <div class="image-description">City center architectural showcase</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/HpJvPQS/S00125-12345511.jpg" alt="Urban Lines">
+            <div class="image-title">Urban Lines</div>
+            <div class="image-description">Linear elements in city architecture</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/J2P3t95/S00125-12354561.jpg" alt="City Forms">
+            <div class="image-title">City Forms</div>
+            <div class="image-description">Abstract forms in urban landscape</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/ZNWJ3LG/S00125-12365070.jpg" alt="Metropolitan Art">
+            <div class="image-title">Metropolitan Art</div>
+            <div class="image-description">Artistic elements in city design</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/3ytS1tL/S00125-12372363.jpg" alt="Urban Flow">
+            <div class="image-title">Urban Flow</div>
+            <div class="image-description">Flowing lines in city architecture</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/8Y8CKhK/S00125-12380334.jpg" alt="City Geometry">
+            <div class="image-title">City Geometry</div>
+            <div class="image-description">Geometric architecture in urban setting</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/Tc4JZWy/S00125-12390364.jpg" alt="Urban Spaces">
+            <div class="image-title">Urban Spaces</div>
+            <div class="image-description">Spatial design in city architecture</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/RjD470q/S00125-12395735.jpg" alt="City Details">
+            <div class="image-title">City Details</div>
+            <div class="image-description">Architectural details in urban environment</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/HHxvYmJ/S00125-12404474.jpg" alt="Urban Texture">
+            <div class="image-title">Urban Texture</div>
+            <div class="image-description">Textural elements in city design</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/YkcVTNL/S00125-12405097.jpg" alt="City Layers">
+            <div class="image-title">City Layers</div>
+            <div class="image-description">Layered architecture in urban setting</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/X5wYY7y/S00125-12411363.jpg" alt="Metropolitan Structure">
+            <div class="image-title">Metropolitan Structure</div>
+            <div class="image-description">Structural elements in city architecture</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/dpKYdGf/S00125-12413049.jpg" alt="Urban Composition">
+            <div class="image-title">Urban Composition</div>
+            <div class="image-description">Compositional elements in city design</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/XtxB84h/S00125-12413876.jpg" alt="City Aesthetics">
+            <div class="image-title">City Aesthetics</div>
+            <div class="image-description">Aesthetic elements in urban design</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/HBJ2FZB/S00125-12415312.jpg" alt="Urban Perspectives">
+            <div class="image-title">Urban Perspectives</div>
+            <div class="image-description">Perspective views in city architecture</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/wCVmsF4/S00125-12441558.jpg" alt="Metropolitan Elements">
+            <div class="image-title">Metropolitan Elements</div>
+            <div class="image-description">Design elements in urban landscape</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/DYgLt40/S00125-12462227.jpg" alt="City Harmony">
+            <div class="image-title">City Harmony</div>
+            <div class="image-description">Harmonious architecture in urban setting</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/gRhgxzB/S00125-12583349.jpg" alt="Urban Balance">
+            <div class="image-title">Urban Balance</div>
+            <div class="image-description">Balanced design in city architecture</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/hfWhmpg/S00125-12584551.jpg" alt="City Rhythm">
+            <div class="image-title">City Rhythm</div>
+            <div class="image-description">Rhythmic patterns in urban design</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/7GSrjHB/S00125-13161374.jpg" alt="Urban Framework">
+            <div class="image-title">Urban Framework</div>
+            <div class="image-description">Architectural framework in city setting</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/LPVdwfy/S00125-13175427.jpg" alt="Metropolitan Pattern">
+            <div class="image-title">Metropolitan Pattern</div>
+            <div class="image-description">Pattern design in urban architecture</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/zbbTHdw/S00125-13313064.jpg" alt="City Structure">
+            <div class="image-title">City Structure</div>
+            <div class="image-description">Structural design in urban landscape</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/Z8C8xg5/S00125-13314189.jpg" alt="Urban Form">
+            <div class="image-title">Urban Form</div>
+            <div class="image-description">Form exploration in city architecture</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/SyFLmR6/S00125-13315016.jpg" alt="City Innovation">
+            <div class="image-title">City Innovation</div>
+            <div class="image-description">Innovative design in urban setting</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/KbZ0Sfk/S00125-13343431.jpg" alt="Metropolitan Space">
+            <div class="image-title">Metropolitan Space</div>
+            <div class="image-description">Spatial design in urban environment</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/hgHqL9y/S00125-13355407.jpg" alt="Urban Composition">
+            <div class="image-title">Urban Composition</div>
+            <div class="image-description">Compositional elements in city design</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/KLnVydT/S00125-13571474.jpg" alt="City Elements">
+            <div class="image-title">City Elements</div>
+            <div class="image-description">Design elements in urban architecture</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/93F6Nzh/S00125-13585938.jpg" alt="Urban Style">
+            <div class="image-title">Urban Style</div>
+            <div class="image-description">Stylistic elements in city design</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/qmrJvsz/S00125-13593319.jpg" alt="Metropolitan Design">
+            <div class="image-title">Metropolitan Design</div>
+            <div class="image-description">Design principles in urban setting</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/X3BnQsD/S00125-14032062.jpg" alt="City Concept">
+            <div class="image-title">City Concept</div>
+            <div class="image-description">Conceptual design in urban architecture</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/7S3bsF3/S00125-14034904.jpg" alt="Urban Vision">
+            <div class="image-title">Urban Vision</div>
+            <div class="image-description">Visionary architecture in city landscape</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/cyXyMbL/S00125-14041605.jpg" alt="Metropolitan Flow">
+            <div class="image-title">Metropolitan Flow</div>
+            <div class="image-description">Flow patterns in urban design</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/ZYB2Rbh/S00125-14043348.jpg" alt="City Movement">
+            <div class="image-title">City Movement</div>
+            <div class="image-description">Movement in urban architecture</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/YBnYprw/S00125-14051694.jpg" alt="Urban Dynamics">
+            <div class="image-title">Urban Dynamics</div>
+            <div class="image-description">Dynamic elements in city design</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://i.ibb.co/N1NGrCd/S00125-14065436.jpg" alt="Metropolitan Rhythm">
+            <div class="image-title">Metropolitan Rhythm</div>
+            <div class="image-description">Rhythmic architecture in urban setting</div>
+        </div>
+      </div>
     
 </div>
 
+
+    
+    <div class="page-template-content markdown-body">
+        
+            
+        
+    </div>
+    <div class="page-template-comments">
+        
+    </div>
 </div>
+
 
                 
 
